@@ -23,6 +23,7 @@ ul {
     justify-content: space-around;
     color: #F9FAF8;
     padding: 20px;
+    flex-basis: 30px;
 }
 
 .headerlogo {
@@ -41,19 +42,22 @@ ul {
     color: #F9FAF8;
     gap: 30px;
     justify-content: center;
-    padding-top: 80px;
+    padding-top: 50px;
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
+    flex-basis: 350px;
 }
 
 .herocontent {
+    display: flex;
+    flex-direction: column;
     flex-basis: 500px;
     gap: 10px;
+    justify-content: center;
 }
 
 .herocontent button {
-    margin-top: 10px;
     width: 100px;
     height: 25px;
     background-color: #3882F6;
@@ -67,6 +71,7 @@ ul {
 .headerimage {
     flex-basis: 450px;
     height: 200px;
+    margin-top: 70px;
 }
 
 .heromain {
@@ -80,7 +85,42 @@ ul {
 }
 
 .informationcontainer {
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-basis: 350px;
+}
 
+.infotext {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+
+.images img {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+}
+
+.textimages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    width: 755px;
+    text-align: center;
+}
+
+.text {
+    width: 156px;
 }
 
 .quotecontainer {
@@ -88,10 +128,27 @@ ul {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 350px;
+}
+
+.quote {
+    width: 800px;
+    font-weight: lighter;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 500px;
 }
 
 .signupcontainer {
-
+    flex-basis: 20%;
 }
 
 .footer {
