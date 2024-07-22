@@ -148,9 +148,52 @@ ul {
 }
 
 .signupcontainer {
-    flex-basis: 20%;
+    display: flex;
+    flex-basis: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    background-color: #3882F6;
+    display: flex;
+    padding: 35px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 5px;
+    gap: 100px;
+}
+
+.calltext {
+    color: #F9FAF8;
+    font-family: "Roboto";
+}
+
+.calltoaction {
+    font-weight: bold;
+}
+
+.singupbutton {
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-radius: 6px;
+    border-style: solid;
+    width: 120px;
+    height: 30px;
+    color: #F9FAF8;
+    margin: auto;
+    font-family: "Roboto";
+    font-weight: 500;
 }
 
 .footer {
     background-color: #1F2937;
+    height: 30px;
+    padding: 20px;
+    color: #F9FAF8;
+}
+
+.foottext {
+    text-align: center;
+    margin: auto;
 }
