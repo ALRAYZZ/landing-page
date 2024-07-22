@@ -5,17 +5,78 @@ body {
     flex-direction: column;
 }
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
 ul {
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 
 .header {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    color: #F9FAF8;
+    padding: 20px;
+}
+
+.headerlogo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.right-links {
+    display: flex;
+    gap: 15px;
 }
 
 .herocontainer {
+    display: flex;
     background-color: #1F2937;
+    color: #F9FAF8;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+.herocontent {
+    flex-basis: 500px;
+    gap: 10px;
+}
+
+.herocontent button {
+    margin-top: 10px;
+    width: 100px;
+    height: 25px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-family: "Roboto";
+}
+
+.headerimage {
+    flex-basis: 450px;
+    height: 200px;
+}
+
+.heromain {
+    font-size: 48px;
+    font-weight:bolder
+}
+
+.herosecondary {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .informationcontainer {
